@@ -13,6 +13,17 @@
     <name>Hello World Web Application Repository</name>
     <description>Simplest possible Java Webapp</description>
 
+    <!-- Dependencies -->
+    <dependencies>
+        <!-- Servlet API for compiling servlets -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <!-- Jetty plugin to run the web app locally -->
@@ -35,4 +46,5 @@
     </build>
 
 </project>
+
 
